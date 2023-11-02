@@ -1,0 +1,101 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(fONDO\ 1.jpg);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+
+.logo-principal {
+    width: 300px; 
+    height: 300px; 
+    background-image: url('./LOGO.jpg');
+    background-size: cover;
+    position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    clip-path: circle(50% at 50% 50%);
+  }
+
+  .fondo-rojo {
+    width: 414px; 
+    height: 400px; 
+    background-image: url('./fondo.jpg');
+    background-size: cover;
+    position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  }
+
+  .icono {
+    width: 80px; 
+    height: 80px; 
+    background-image: url('./Llave.jpg');
+    background-size: cover;
+    position: absolute;
+  top: 75%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+    clip-path: circle(50% at 50% 50%);
+  }
+ 
+  .icono2 {
+    width: 80px; 
+    height: 80px; 
+    background-image: url('./Registrate.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    clip-path: circle(50% at 50% 50%);
+  }
+
+
+.llave-text {
+    position: absolute;
+    top: 80%;
+    left: 20%; 
+    width: 300px; 
+    height: 200px;
+    align-items: center;
+    justify-content: center; 
+       
+  }
+  
+  .llave-text p {
+   
+    font-size: 16px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: white; 
+  }
+  
+  .registro {
+    position: absolute;
+    top: 80%;
+    left: 63%; 
+    width: 300px; 
+    height: 200px;
+    align-items: center;
+    justify-content: center; 
+       
+  }
+  
+  .registro p {
+   
+    font-size: 16px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: white; 
+  }
+  
